@@ -6,8 +6,14 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxBinary;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.*;
+
+import java.io.File;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.titleIs;
 
@@ -18,7 +24,12 @@ public class MyFirstTest {
 
         @Before
         public void start () {
-            driver = new ChromeDriver();
+            FirefoxOptions options = new FirefoxOptions().setLegacy(false);
+            options.setProfile(new FirefoxProfile());
+            options.setBinary(new FirefoxBinary(new File("C:\\Program Files\\Firefox Nightly\\firefox.exe")));
+            driver = new FirefoxDriver(options);
+            //caps.setCapability(FirefoxDriver.MARIONETTE, true);
+            driver = new FirefoxDriver(options);
             wait = new WebDriverWait(driver, 10);
         }
 
