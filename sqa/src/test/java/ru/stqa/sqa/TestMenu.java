@@ -35,7 +35,7 @@ public class TestMenu {
     }
 
     @Test
-    public void TestMenu() {
+    public void testMenu() {
         driver.get("http://localhost/litecart/admin/");
         driver.findElement(By.cssSelector("[name=username]")).sendKeys("admin");
         driver.findElement(By.cssSelector("[type=password]")).sendKeys("123456");
