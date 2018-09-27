@@ -28,7 +28,7 @@ public class TestStickers {
     public void testStickers() {
         driver.get("http://localhost/litecart/");
 
-        for (WebElement d : driver.findElements(By.cssSelector(".link[title*=Duck]"))) {
+        for (WebElement d : driver.findElements(By.cssSelector("li.product"))) {
 
             if (d.findElements(By.cssSelector("div.sticker")).size() == 1) {
                 areElementsPresent = true;
