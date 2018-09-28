@@ -19,6 +19,7 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.titleIs;
 public class TestMenu {
     private WebDriver driver;
     //private WebDriverWait wait;
+    private WebElement menu;
 
 
     @Before
@@ -48,10 +49,12 @@ public class TestMenu {
         driver.findElement(By.cssSelector("[type=password]")).sendKeys("123456");
         driver.findElement(By.cssSelector("[type=submit]")).click();
         String s = driver.findElement(By.cssSelector(".name")).getText();
-        WebElement menu;
         //ArrayList<WebElement> m = new ArrayList<>(driver.findElements(By.cssSelector(".name")));
     while (s == "vQmods") {
-        ArrayList<WebElement> m = new ArrayList<>(driver.findElements(By.cssSelector(".name")))
+        //ArrayList<WebElement> m = new ArrayList<>(driver.findElements(By.cssSelector(".name")));
+        menu = driver.findElement(By.cssSelector(".name"));
+        driver.findElement(By.cssSelector(".selected"))
+        menu.click();
 
     }
         //int i = 0;
