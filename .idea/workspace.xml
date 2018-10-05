@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="622abb19-acac-4517-b585-a2304fd522b7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sqa/out/test/classes/ru/stqa/sqa/TestMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/sqa/out/test/classes/ru/stqa/sqa/TestMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sqa/out/test/classes/ru/stqa/sqa/TestSorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/sqa/out/test/classes/ru/stqa/sqa/TestSorting.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/TestMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/TestMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/TestSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/TestSorting.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/sqa/.gradle/" />
     <ignored path="$PROJECT_DIR$/sqa/build/" />
@@ -40,7 +44,7 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sqa/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
@@ -53,8 +57,8 @@
       <file leaf-file-name="MyFirstTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/MyFirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="40" column="58" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="58" />
+            <state relative-caret-position="428">
+              <caret line="39" column="64" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,11 +66,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestMenu.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestGoods.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/TestGoods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="28" column="52" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestMenu.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/TestMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="50" column="73" selection-start-line="50" selection-start-column="73" selection-end-line="50" selection-end-column="73" />
+            <state relative-caret-position="-17">
+              <caret line="36" column="4" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="36" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestRegistration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/TestRegistration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestSorting.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/TestSorting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="86" column="22" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,8 +117,8 @@
       <file leaf-file-name="TestStickers.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/TestStickers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="31" />
+            <state relative-caret-position="357">
+              <caret line="30" column="47" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,14 +126,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Assert.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
+      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="85" selection-start-line="85" selection-end-line="85" />
+            <state relative-caret-position="255">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
               <folding>
-                <element signature="e#1856#1857#0" expanded="true" />
-                <element signature="e#1903#1904#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,11 +141,8 @@
       <file leaf-file-name="MyFirstTest.java" pinned="false" current-in-tab="false">
         <entry file="file://C:/Задачи/MyFirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="31" selection-end-line="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -501,13 +537,18 @@
         <option value="$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/MyFirstTest.java" />
         <option value="$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/TestLogin.java" />
         <option value="$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/TestStickers.java" />
+        <option value="$PROJECT_DIR$/sqa/src/main/java/TestHelper.java" />
+        <option value="$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/TestBase.java" />
+        <option value="$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/TestGoods.java" />
         <option value="$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/TestMenu.java" />
+        <option value="$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/TestRegistration.java" />
+        <option value="$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/TestSorting.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1557" />
-    <option name="y" value="-13" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="265" />
+    <option name="y" value="-25" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -517,9 +558,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -567,6 +606,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -576,6 +617,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/sqa/src/main/java/MyFirstTest.java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.stqa.sqa" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -589,7 +635,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestMenu.testMenu">
+  <component name="RunManager" selected="JUnit.TestSorting.testZones">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -616,7 +662,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestStickers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRegistration.testRegistration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sqa_test" />
       <extension name="coverage">
         <pattern>
@@ -627,9 +673,55 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.stqa.sqa" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.sqa.TestStickers" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.sqa.TestRegistration" />
+      <option name="METHOD_NAME" value="testRegistration" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestSorting.testCountries" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sqa_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.sqa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ru.stqa.sqa" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.sqa.TestSorting" />
+      <option name="METHOD_NAME" value="testCountries" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestSorting.testZones" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sqa_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.sqa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ru.stqa.sqa" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.sqa.TestSorting" />
+      <option name="METHOD_NAME" value="testZones" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -678,13 +770,17 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestStickers" />
       <item itemvalue="JUnit.TestMenu.testMenu" />
+      <item itemvalue="JUnit.TestSorting.testCountries" />
+      <item itemvalue="JUnit.TestSorting.testZones" />
+      <item itemvalue="JUnit.TestRegistration.testRegistration" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestSorting.testZones" />
+        <item itemvalue="JUnit.TestSorting.testCountries" />
+        <item itemvalue="JUnit.TestRegistration.testRegistration" />
         <item itemvalue="JUnit.TestMenu.testMenu" />
-        <item itemvalue="JUnit.TestStickers" />
       </list>
     </recent_temporary>
   </component>
@@ -702,69 +798,69 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestStickers - 2018.09.26 at 19h 53m 32s.xml">
-      <configuration name="TestStickers" configurationId="JUnit" />
+    <history-entry file="TestSorting_testZones - 2018.10.05 at 10h 29m 47s.xml">
+      <configuration name="TestSorting.testZones" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestStickers - 2018.09.26 at 19h 57m 07s.xml">
-      <configuration name="TestStickers" configurationId="JUnit" />
+    <history-entry file="TestSorting_testZones - 2018.10.05 at 10h 30m 05s.xml">
+      <configuration name="TestSorting.testZones" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestStickers - 2018.09.26 at 20h 00m 29s.xml">
-      <configuration name="TestStickers" configurationId="JUnit" />
+    <history-entry file="TestSorting_testZones - 2018.10.05 at 10h 33m 02s.xml">
+      <configuration name="TestSorting.testZones" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestStickers - 2018.09.26 at 20h 00m 39s.xml">
-      <configuration name="TestStickers" configurationId="JUnit" />
+    <history-entry file="TestSorting_testZones - 2018.10.05 at 10h 33m 32s.xml">
+      <configuration name="TestSorting.testZones" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestStickers - 2018.09.26 at 20h 01m 45s.xml">
-      <configuration name="TestStickers" configurationId="JUnit" />
+    <history-entry file="TestSorting_testZones - 2018.10.05 at 10h 33m 56s.xml">
+      <configuration name="TestSorting.testZones" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestStickers - 2018.09.26 at 20h 01m 57s.xml">
-      <configuration name="TestStickers" configurationId="JUnit" />
+    <history-entry file="TestSorting_testZones - 2018.10.05 at 10h 35m 00s.xml">
+      <configuration name="TestSorting.testZones" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestStickers - 2018.09.27 at 16h 15m 43s.xml">
-      <configuration name="TestStickers" configurationId="JUnit" />
+    <history-entry file="TestSorting_testZones - 2018.10.05 at 10h 40m 11s.xml">
+      <configuration name="TestSorting.testZones" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMenu_testMenu - 2018.09.27 at 16h 35m 55s.xml">
-      <configuration name="TestMenu.testMenu" configurationId="JUnit" />
+    <history-entry file="TestSorting_testZones - 2018.10.05 at 10h 45m 58s.xml">
+      <configuration name="TestSorting.testZones" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMenu_testMenu - 2018.09.27 at 16h 40m 56s.xml">
-      <configuration name="TestMenu.testMenu" configurationId="JUnit" />
+    <history-entry file="TestSorting_testZones - 2018.10.05 at 10h 49m 38s.xml">
+      <configuration name="TestSorting.testZones" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMenu_testMenu - 2018.09.28 at 14h 32m 00s.xml">
-      <configuration name="TestMenu.testMenu" configurationId="JUnit" />
+    <history-entry file="TestSorting_testZones - 2018.10.05 at 10h 51m 45s.xml">
+      <configuration name="TestSorting.testZones" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.33660132" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3093682" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18443497" />
-      <window_info anchor="bottom" id="Build" weight="0.3299435" />
-      <window_info anchor="right" id="Gradle" visible="true" weight="0.09488273" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.33660132" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3093682" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18869936" />
+      <window_info anchor="right" id="Gradle" order="3" visible="true" weight="0.09488273" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39907193" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3299435" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -772,20 +868,134 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/TestRegistration.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="20" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sqa/src/main/java/MyFirstTest.java">
+    <entry file="file://$PROJECT_DIR$/sqa/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-end-line="30" />
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/MyFirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="39" column="64" lean-forward="true" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/TestGoods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="52" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/TestRegistration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Задачи/MyFirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/TestSorting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="46" column="54" lean-forward="true" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqa/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/MyFirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="40" column="58" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/TestStickers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Задачи/MyFirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="31" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/TestMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="55" column="53" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqa/src/main/java/MyFirstTest.java" />
     <entry file="file://$PROJECT_DIR$/sqa/gradlew">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -796,13 +1006,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Задачи/MyFirstTest.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/requests/ClassRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="31" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="405">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/requests/FilterRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
@@ -810,27 +1024,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="85" selection-start-line="85" selection-end-line="85" />
-          <folding>
-            <element signature="e#1856#1857#0" expanded="true" />
-            <element signature="e#1903#1904#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/TestHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.14.0/8c0af6fdccdc89a4394de7e3a8817ed2d6e41d7d/selenium-api-3.14.0-sources.jar!/org/openqa/selenium/By.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="430" selection-start-line="430" selection-end-line="430" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/MyFirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="40" column="58" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="58" />
+        <state relative-caret-position="428">
+          <caret line="39" column="64" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Задачи/MyFirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/TestRegistration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/jdk/internal/reflect/DelegatingMethodAccessorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/TestStickers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="31" />
+        <state relative-caret-position="357">
+          <caret line="30" column="47" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -839,8 +1087,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/TestMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="50" column="73" selection-start-line="50" selection-start-column="73" selection-end-line="50" selection-end-column="73" />
+        <state relative-caret-position="-17">
+          <caret line="36" column="4" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="36" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/TestGoods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="28" column="52" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqa/src/test/java/ru/stqa/sqa/TestSorting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="86" column="22" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

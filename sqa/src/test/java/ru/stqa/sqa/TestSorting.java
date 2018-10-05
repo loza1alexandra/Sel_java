@@ -22,6 +22,7 @@ public class TestSorting {
 
     }
 
+
     @Test
     public void testCountries() {
         driver.get("http://localhost/litecart/admin/");
@@ -29,25 +30,30 @@ public class TestSorting {
         driver.findElement(By.cssSelector("[type=password]")).sendKeys("123456");
         driver.findElement(By.cssSelector("[type=submit]")).click();
         driver.get("http://localhost/litecart/admin/?app=countries&doc=countries");
-        ArrayList<WebElement> tableCountries = new ArrayList<>(driver.findElements(By.cssSelector("tr.row")));
+       int x = driver.findElements(By.cssSelector("tr.row")).size();
         ArrayList<String> countriesBefore = new ArrayList<>();
         ArrayList<String> countriesAfter = new ArrayList<>();
-        String countryZonesValue = null;
+        String countryZonesValue;
         String countryName;
-        WebElement country = null;
+        WebElement country;
+        WebElement hrefCountry;
 
 
-        for (WebElement c : tableCountries) {
-            ArrayList<WebElement> rowsCountries = new ArrayList<>(c.findElements(By.cssSelector("td")));
-            country = rowsCountries.get(4);
-            countryName = country.getText();
+        for (int i = 0; i<x; i++) {
+            ArrayList<WebElement> tableCountries = new ArrayList<>(driver.findElements(By.cssSelector("tr.row")));
+            WebElement rowCountries = tableCountries.get(i);
+            ArrayList<WebElement> rowsCountries = new ArrayList<>(rowCountries.findElements(By.cssSelector("td")));
             WebElement countryZone = rowsCountries.get(5);
             countryZonesValue = countryZone.getText();
-            countriesAfter.add(countryName);
-            countriesBefore.add(countryName);
-        }
-            if (countryZonesValue != "0") {
-                country.click();
+            country = rowsCountries.get(4);
+            int y = Integer.parseInt(countryZonesValue);
+            //hrefCountry = country.findElement(By.cssSelector("a"));
+            //System.out.println(countryZonesValue);
+
+
+            if (y>0) {
+                hrefCountry = country.findElement(By.cssSelector("a"));
+                hrefCountry.click();
                 WebElement tableZones = driver.findElement(By.cssSelector(".dataTable"));
                 ArrayList<WebElement> rowsZones = new ArrayList<>(tableZones.findElements(By.cssSelector(".tr")));
                 ArrayList<String> zonesAfter = new ArrayList<>();
@@ -58,16 +64,22 @@ public class TestSorting {
                     String zoneCountryName = zoneCountry.getText();
                     zonesAfter.add(zoneCountryName);
                     zonesBefore.add(zoneCountryName);
-
                 }
-                Collections.sort(zonesAfter);
-                Assert.assertEquals(zonesAfter, zonesBefore);
+                driver.get("http://localhost/litecart/admin/?app=countries&doc=countries");
+            }
 
 
+            tableCountries = new ArrayList<>(driver.findElements(By.cssSelector("tr.row")));
+            rowCountries = tableCountries.get(i);
+            rowsCountries = new ArrayList<>(rowCountries.findElements(By.cssSelector("td")));
+                country = rowsCountries.get(4);
+                countryName = country.getText();
+                countriesAfter.add(countryName);
+                countriesBefore.add(countryName);
+
+            Collections.sort(countriesAfter);
+            Assert.assertEquals(countriesAfter, countriesBefore);
         }
-
-        Collections.sort(countriesAfter);
-        Assert.assertEquals(countriesAfter, countriesBefore);
 
     }
 
@@ -88,22 +100,27 @@ public class TestSorting {
             hrefCountry.click();
 
             WebElement Zones = driver.findElement(By.cssSelector(".dataTable"));
-            ArrayList<WebElement> zoneEdit = new ArrayList<>(Zones.findElements(By.cssSelector(".tr")));
+            //ArrayList<WebElement> zoneEdit = new ArrayList<>(Zones.findElements(By.cssSelector("tr:not([class=header]")));
             ArrayList<String> zonesAfter = new ArrayList<>();
             ArrayList<String> zonesBefore = new ArrayList<>();
-            for (WebElement z : zoneEdit) {
-                ArrayList<WebElement> zones = new ArrayList<>(z.findElements(By.cssSelector("td")));
-                WebElement zone = zones.get(3);
-                String zoneName = zone.getText();
+            int a = Zones.findElements(By.cssSelector("tr:not([class=header]")).size();
+            a = a-1;
+            for (int k = 0; k<a; k++) {
+                ArrayList<WebElement> zoneEdit = new ArrayList<>(Zones.findElements(By.cssSelector("tr:not([class=header]")));
+                WebElement zon = zoneEdit.get(k);
+                ArrayList<WebElement> zones = new ArrayList<>(zon.findElements(By.cssSelector("td")));
+                WebElement zoneTd = zones.get(2);
+                WebElement zone = zoneTd.findElement(By.cssSelector("[selected = selected]"));
+                String zoneName = zone.getAttribute("text");
                 zonesAfter.add(zoneName);
                 zonesBefore.add(zoneName);
+                Collections.sort(zonesAfter);
+                Assert.assertEquals(zonesAfter, zonesBefore);
 
             }
-
-            Collections.sort(zonesAfter);
-            Assert.assertEquals(zonesAfter, zonesBefore);
             driver.get("http://localhost/litecart/admin/?app=geo_zones&doc=geo_zones");
             geoZones = new ArrayList<>(driver.findElements(By.cssSelector("tr.row")));
+
 
         }
 
