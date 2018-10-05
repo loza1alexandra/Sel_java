@@ -47,8 +47,7 @@ public class TestSorting {
             countryZonesValue = countryZone.getText();
             country = rowsCountries.get(4);
             int y = Integer.parseInt(countryZonesValue);
-            //hrefCountry = country.findElement(By.cssSelector("a"));
-            //System.out.println(countryZonesValue);
+
 
 
             if (y>0) {
@@ -100,7 +99,6 @@ public class TestSorting {
             hrefCountry.click();
 
             WebElement Zones = driver.findElement(By.cssSelector(".dataTable"));
-            //ArrayList<WebElement> zoneEdit = new ArrayList<>(Zones.findElements(By.cssSelector("tr:not([class=header]")));
             ArrayList<String> zonesAfter = new ArrayList<>();
             ArrayList<String> zonesBefore = new ArrayList<>();
             int a = Zones.findElements(By.cssSelector("tr:not([class=header]")).size();
