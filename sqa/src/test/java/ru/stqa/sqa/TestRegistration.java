@@ -75,6 +75,7 @@ public class TestRegistration {
         driver.findElement(By.cssSelector("[name = email]")).sendKeys(mail);
         driver.findElement(By.cssSelector("[name = password]")).sendKeys(password);
         driver.findElement(By.cssSelector("[name = login]")).click();
+        driver.findElement(By.xpath("//a[contains(.,  'Logout')]")).click();
 
     }
 
