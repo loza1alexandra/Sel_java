@@ -62,7 +62,7 @@ public class TestAddNewProduct {
         driver.findElement(By.cssSelector("[name *= EUR]")).sendKeys("20");
         driver.findElement(By.xpath("//button[contains(.,  'Save')]")).click();
         int after = driver.findElements(By.cssSelector(".row")).size();
-        assertEquals(before, after - 1);
+        assertEquals(after, before + 1);
 
 
 
