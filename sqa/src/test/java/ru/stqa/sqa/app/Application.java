@@ -52,7 +52,7 @@ public class Application {
     }
 
     public void deleteFromBasket() {
-       deleteGoods.openN();
+       deleteGoods.open();
        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         int j = deleteGoods.goods.size();
         j = j-1;

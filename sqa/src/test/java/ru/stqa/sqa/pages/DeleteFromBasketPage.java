@@ -14,7 +14,7 @@ public class DeleteFromBasketPage extends Page {
         PageFactory.initElements(driver, this);
     }
 
-    public void openN () {
+    public void open () {
         driver.get("http://localhost/litecart/en/checkout");
         //return this;
     }
