@@ -25,10 +25,5 @@ public List<WebElement> goods;
     @FindBy (xpath = "//button[contains(.,  'Remove')]")
     public WebElement remove;
 
-   //@FindBy (css = ".dataTable tr")
-    //public List<WebElement> goodsNumber;
-
-  //@FindBy (css = ".dataTable .item:not([class=header]")
-   //public  ArrayList<WebElement>
 
 }
